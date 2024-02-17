@@ -39,6 +39,9 @@ dayNight.addEventListener("click", () => {
     document.body.classList.toggle("dark");
 })
 window.addEventListener("load", () => {
+    // By default, set to dark mode
+    document.body.classList.add("dark");
+    
     if(document.body.classList.contains("dark"))
     {
         dayNight.querySelector("i").classList.add("fa-sun");
