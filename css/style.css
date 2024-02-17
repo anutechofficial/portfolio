@@ -429,9 +429,9 @@ h3.my-profession
 .home .home-img img
 {
     height: 400px;
-    width: 100%;
+    width: auto;
     margin: auto;
-    width: 100%;
+    width: auto;
     border-radius:5px;
 }
 
